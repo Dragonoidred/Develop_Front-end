@@ -22,7 +22,6 @@
     body {
       margin: 0;
       font-family: 'Quicksand', sans-serif;
-      
     }
     .login {
       width: 100%;
@@ -88,10 +87,17 @@
       font-size: var(--md);
       font-weight: bold;
       height: 50px;
+      
     }
     .login-button {
       margin-top: 14px;
       margin-bottom: 30px;
+      
+    }
+
+    .something-important {
+      text-decoration: none;
+      color: var(--white);
     }
     @media (max-width: 640px) {
       .logo {
@@ -109,10 +115,10 @@
 <div class="email-image">
 <img src="./icons/email.svg" alt="email">
 </div>
-<button class="primary-button login-button">Login</button>
+<button class="primary-button login-button"><a href="./class_1.html" class="something-important">login</a></button>
 <p class="resend">
 <span>Didn't receive the email?</span>
-<a href="/">Resend</a>
+<a href="./class_2.html">Resend</a>
 </p>
 </div>
 </div>
